@@ -5,13 +5,6 @@ Bienvenue dans cette template élégante et responsive de **page de connexion et
 
 ---
 
-## 📸 Aperçu de la Template
-
-Voici un aperçu de la page de connexion et d'inscription, offrant une interface utilisateur propre et moderne :
-
-
-
----
 
 ## 🚀 Fonctionnalités
 
