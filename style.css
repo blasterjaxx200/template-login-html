@@ -1,0 +1,88 @@
+body {
+  background-color: #2c2c2c; /* Gris foncé */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Assure que le contenu occupe toute la hauteur de la page */
+  font-family: Arial, sans-serif;
+}
+
+.login {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px; /* Ajoute du contenu interne */
+  margin-bottom: 150px;
+  height: 350px;
+}
+
+.login:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.login h2 {
+  font-weight: bold; /* Rend le texte en gras */
+  font-size: 1.5rem; /* Augmente la taille pour un bel effet */
+  text-align: center; /* Centre le texte horizontalement */
+  margin: 0; /* Supprime les marges par défaut */
+  color: #333; /* Couleur personnalisée pour un contraste avec le fond blanc */
+}
+
+.login input[id="mail1"] {
+  border-radius: 50px; /* Coins arrondis */
+  width: 80%; /* Largeur relative pour s'adapter au conteneur */
+  padding: 10px 15px; /* Espacement interne */
+  margin: 20px auto; /* Espacement au-dessus et centrer horizontalement */
+  display: block; /* Nécessaire pour centrer avec margin auto */
+  border: 1px solid #ccc; /* Bordure subtile */
+  outline: none; /* Supprime l'effet de contour par défaut au focus */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  font-size: 1rem; /* Taille de texte */
+  color: #333; /* Couleur du texte */
+  margin-top: 60px;
+}
+
+.login input[id="password1"] {
+  border-radius: 50px;
+  width: 80%;
+  padding: 10px 15px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  outline: none;
+  box-shadow: 0 2px  4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  color: #333;
+  margin-top: 40px;
+  
+}
+
+.login button {
+  background-color: #007BFF; /* Couleur de fond bleue */
+  color: #fff; /* Couleur du texte blanche */
+  border: none; /* Supprime les bordures */
+  border-radius: 25px; /* Coins arrondis */
+  padding: 10px 20px; /* Espacement interne */
+  font-size: 1rem; /* Taille du texte */
+  font-weight: bold; /* Texte en gras */
+  cursor: pointer; /* Change le curseur en main */
+  transition: background-color 0.3s, transform 0.2s; /* Effet de transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre subtile */
+  display: block;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.login button:hover {
+  background-color: #0056b3; /* Couleur plus foncée au survol */
+  transform: translateY(-2px); /* Légère élévation au survol */
+}
+.login button:active {
+  background-color: #003f7f; /* Couleur encore plus foncée au clic */
+  transform: translateY(0); /* Retour à la position initiale */
+}
