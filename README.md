@@ -9,7 +9,7 @@ Bienvenue dans cette template élégante et responsive de **page de connexion et
 
 Voici un aperçu de la page de connexion et d'inscription, offrant une interface utilisateur propre et moderne :
 
-![Aperçu de la template](https://via.placeholder.com/800x400.png)
+
 
 ---
 
