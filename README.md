@@ -33,5 +33,5 @@ Bienvenue dans cette template élégante et responsive de **page de connexion et
 Clonez le repository ou téléchargez les fichiers pour commencer :
 
 ```bash
-git clone https://github.com/votre-utilisateur/connexion-inscription-template.git
+git clone https://github.com/blasterjaxx200/template-login-html.git
 
